@@ -5,7 +5,7 @@ I=-D__builtin_ia32_pmaxud512=__builtin_elementwise_max -D__builtin_ia32_pmaxub51
 V=-mavx512{f,dq,vbmi,vnni,vpopcntdq,bw} 
 D=-O0 -g3 -fdebug-macro -fstandalone-debug
 W=-Wno-int-conversion -Wno-parentheses -Wno-shift-op-parentheses -Wno-bitwise-conditional-parentheses -Wno-incompatible-pointer-types-discards-qualifiers
-W2=-Wincompatible-pointer-types
+W2=-Wincompatible-pointer-types -Wno-multichar
 #-Wno-incompatible-function-pointer-types
 
 a:?.[ch] makefile
