@@ -9,7 +9,7 @@ a successor to k/simple
 - [x] add sane versioning to banner (yyyy.mm.dd)
 - [ ] validate against effbiae's numpy test vectors
 - [ ] document preamble and type system
-- [ ] remove wishful thinking from refcard
+- [~] remove wishful thinking from refcard
 - [ ] wire refcard to `\`
 - [ ] add inline lexoparser documentation
 - [ ] consolidate microbenchmarks (dict+z.z)
@@ -24,11 +24,13 @@ a successor to k/simple
 
 ### refs
 
-[https://github.com/effbiae/c](https://github.com/effbiae/c)
+[https://github.com/effbiae/c](https://github.com/effbiae/c) transpiler
 
-[https://github.com/effbiae/t.py](https://github.com/effbiae/t.py)
+[https://github.com/effbiae/t.py](https://github.com/effbiae/t.py) test
 
-[https://ktye.github.io/kedu](https://ktye.github.io/kedu)
+[https://github.com/ReturnInfinity/kbm](https://github.com/ReturnInfinity/kbm) bochs
+
+[https://ktye.github.io/kedu](https://ktye.github.io/kedu) diff
 
 ### license
 
