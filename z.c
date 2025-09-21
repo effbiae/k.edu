@@ -19,4 +19,4 @@ is(c,Z=Ci;sd=Fi;ih=B;ij;ik=0;W(j=*s;B<j&&'9'-j)(s+=Q(js(h,k,j='"'==j?0:'0'==j&qd
 Us(es,P('::'==*(short*)(s+1),ii=*s%B;c(Hi=i,s+3);B)c(0,s);s=*F;r(q(0),_c(0)))Us(ts,ii=ib(B,s);si=0;in=i?ix(es(s)):1;c(0,s+i+1);Uz=T()+30*n;i(n,Q(_r(q(0))))_c(0);ti(.5+t*(T()-z)))
 #define L(c,z) r(0l,sd=s+i;W(s<d){in=(c-NL?ib:ic)(c,s);P(!n,B)r=Q(z);s+=n+1;})//U(ts,Uz=T()+30*i;i(i,Q(_r(q(0))))_c(0);ti(.5+t*(T()-z)) (ii=ib(B,s);si=0;ts(r(i?ix(es(s)):1,c(0,s+i+1))
 is(w,_r(wx(*s-'\\'?L(';',es(s)):(si=0,zs(s)))))is(ls,L(NL,'/'-*s?w(n,s):B);B)Us(zs,$6(ib(s[1],"\\ltwv"),_k(0),ms(ls,s+3),ts(s+2),ti(W),vf(),ns(19,R+1)))int main(int i,char**a){
-o(ia32_ldmxcsr)(0xbfc0);_t();k_(m_(0,1l<<36));_t();if(s){Gd=Gs;w(ic(0,d),d);}W((s=*++a)&&'-'==*s)if('n'==s[1])N=i$(ic(0,s+2),s+2);$(s,ms(ls,s))ws(__DATE__"(c)atw/mit");W(i=_w(wc(B),d,256))if(--i)w(i,d);_k(0);}
+o(ia32_ldmxcsr)(0xbfc0);_t();k_(m_(0,1l<<36));_t();if(s){Gd=Gs;w(ic(0,d),d);}W((s=*++a)&&'-'==*s)if('n'==s[1])N=i$(ic(0,s+2),s+2);$(s,ms(ls,s))ws("k/edu "TAG" (c) atw/mit");W(i=_w(wc(B),d,256))if(--i)w(i,d);_k(0);}

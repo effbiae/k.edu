@@ -35,7 +35,6 @@ e x+.y.  /madhava 1390 best   cos:(-X*)/!2*! sin:x*(-X*)/!1+2*! arc:x*(-X*)/%1+2
 parse(file;line;char) "+'[(0a"/"(+2)*'+/m[1;2]" a:+2;a*'+/m12[301020200'*+2/+m12]
 gpu(1$GBs) cpu(2$GBs) mem(2$GB) m3max(400/1.2+?+40T) amd8840hs(90/.5+?+4T(780M))
 core(`lxyz..) util(`cj..) math ipc .. f'/\ norm(%# %S %%U* %SE-M) 
-$wget shakti.com/edu/k.zip;unzip k;make
 
 :+-*%&|<>=~!@? #_^,[:+-*%~_ &|<>=^?#!@,] 16+4list 9+11list 10+10aggr 20math 10gen 10'10/10\ W[TABC]RNLMS[UV..]
 :[-300] +-[1489] =[1557] *%<>[1631] ![1808] ~^v[1890] &|'/\[1961] ..

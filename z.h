@@ -11,8 +11,7 @@
 #define sd char*d
 #include"a.h"
 #if linux
-//void _start(){asm("lea 8(%rsp),%rsi;call main");o(ia32_ldmxcsr)(0xbfc0);}
-_A(naked)V(P9,asm("mov $56,%rax;syscall;test%rax,%rax;jz L;ret;L:pop%rdi;jmp _p"),Uz,UZ)
+_A(naked)V(P9,asm("mov $56,%rax;syscall;test%rax,%rax;jz L;ret;L:pop%rdi;jmp _p"),Uz,UZ)//void _start(){asm("lea 8(%rsp),%rsi;call main");o(ia32_ldmxcsr)(0xbfc0);}
 #define O(f,i) _A(naked)ZU f(_A(unused)Uz,...){asm("mov %rcx,%r10;mov $"#i",%rax;syscall;ret");}//D_(void*,memset,i(n6(n),Ri=z0),Un,int g,IR)
 Zu M=0x4032;O(_K,60)O(_N,4)O(w_,1)O(_w,0)O(d_,2)O(_d,3)O(M_,9)O(_m,11)O(m9,28)O(_T,228)_A(naked)ZU T(){asm("rdtsc;shl $32,%rdx;or %rdx,%rax;ret");}
 #else

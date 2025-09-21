@@ -8,6 +8,11 @@ W=-Wno-int-conversion -Wno-parentheses -Wno-shift-op-parentheses -Wno-bitwise-co
 W2=-Wincompatible-pointer-types -Wno-multichar
 #-Wno-incompatible-function-pointer-types
 
+#tag:yyyy.mm.dd (+sha)
+d=$(shell git log -1 --format="%at" | xargs -I{} date -d @{} +%Y.%m.%d)
+h=$(shell git rev-parse --short HEAD)
+T="\"$d\"" # $h
+
 a:?.[ch] makefile
-	clang-15 $W $(W2) -oa ?.c $S -f{unsigned-char,no-unwind-tables} $V $D $I
+	clang-15 $W $(W2) -DTAG=$T -oa ?.c $S -f{unsigned-char,no-unwind-tables} $V $D $I
 	#lldb-14 -o run -- ./a t.k

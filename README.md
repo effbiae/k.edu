@@ -4,9 +4,9 @@ a successor to k/simple
 
 ### todo
 
-- [ ] fix naked signatures
+- [~] fix naked signatures
 - [ ] produce a warning-free build (clang-15 minimum)
-- [ ] add sane versioning to banner (yyyy.mm.dd)
+- [x] add sane versioning to banner (yyyy.mm.dd)
 - [ ] validate against effbiae's numpy test vectors
 - [ ] document preamble and type system
 - [ ] remove wishful thinking from refcard
