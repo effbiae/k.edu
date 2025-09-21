@@ -3,7 +3,7 @@
 #define X(g,x) U(g,x,Ur,Uy,Uz)
 #include"_.h"
 #define F(g,x) U(g,x,Uy,Uz)
-extern U wx(),O[],_k(),k(),k_(),o_(U,U),_o(U),_i(ii,U),r_(U),_r(U),W;f(iu,z?o(ctzl)(z):64)f(lu,z?64-o(clzl)(z):0)f(nu,o(popcountl)(z))
+extern U wx(),O[],_k(),k(ii,U,U),k_(),o_(U,U),_o(U),_i(ii,U),r_(U),_r(U),W;f(iu,z?o(ctzl)(z):64)f(lu,z?64-o(clzl)(z):0)f(nu,o(popcountl)(z)) //!< FIXME naked signatures
 D(int,ix,14>tz?iz:ez,Uz)F(tj,y<<59|z)U(tb,tj(1,i),ii)U(tg,tj(4,g),gg)U(ti,tj(6,i),ii)U(te,tj(14,ue(e)),ee)
 #define az !(z>>63)
 #define hz (31&z>>54)
